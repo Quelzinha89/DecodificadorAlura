@@ -34,7 +34,7 @@ h6 {
 }
 
 .informacao-erro li::before {
-    content: url(/resources/exclamacao.png);
+    content: url(./resources/exclamacao.png);
     width: 16px;
     height: 17px;
     vertical-align: middle;
@@ -48,7 +48,7 @@ h6 {
     }
 .mensagem {
     background: white;
-    background-image: url(/resources/Fundo-copiar.svg);
+    background-image: url(./resources/Fundo-copiar.svg);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px ;
