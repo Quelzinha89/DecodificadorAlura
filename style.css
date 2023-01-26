@@ -1,0 +1,101 @@
+* {
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    text-transform: Lowercase;
+}
+
+.informacao {
+   color: #495057;
+}
+
+h6 {
+    font-size: 12px;
+    display: inline;
+}
+
+.informacao-erro li::before {
+    content: url(/resources/exclamacao.png);
+    width: 16px;
+    height: 17px;
+    vertical-align: middle;
+}
+
+
+
+::placeholder {color:#0A3871;}
+    .text-area:focus {
+        outline: none;
+    }
+.mensagem {
+    background: white;
+    background-image: url(/resources/Fundo-copiar.svg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px ;
+    color:#0A3871;
+}
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+button {
+    
+    border-color: #0A3871;
+    border-radius: 24px;
+    color:#0A3871;    
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    margin: 0 1.5% ;
+    display: inline;
+}
+.btn-encriptar {
+    background-color: #0A3871;
+    color: white;
+    
+}
+
+.retangulo-saida{
+    background-color: white;
+    color: #0A3871;
+    border-radius: 24px ;
+}
+
+.btn-copiar {
+    background-color: white;
+    color: #0A3871;
+    position: relative;
+    top: -15px
+    
+}
+.invisivel {
+    display: block
+}
